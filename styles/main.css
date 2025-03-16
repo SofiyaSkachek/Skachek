@@ -78,33 +78,6 @@ a {
     margin-right: auto;
 }
 
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    white-space: nowrap;
-    border-width: 0;
-}
-
-.skip-link: {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    padding: 10px 15px;
-    color: #fff;
-    background: #000;
-    transform: translateY(-100%);
-}
-
-.skip-link:focus {
-    transform: translateY(20%);
-}  
-
 .header {
     background: var(--fill-bg);
     backdrop-filter: var(--fill-filter);
@@ -121,6 +94,8 @@ a {
 }
 
 .header__logo-image {
+    width: 135.3px;
+    height: 17.3px;
 }
 
 .header__navbar {
@@ -145,6 +120,8 @@ a {
 }
 
 .header__button-image {
+    width: 27px;
+    height: 22px;
 }
 
 .header__update {
@@ -163,6 +140,7 @@ a {
 }
 
 .header__lang-image {
+    width: 26px;
 }
 
 .welcom .wrapper {
@@ -197,6 +175,7 @@ a {
 }
 
 .cookies-image {
+    max-width: 163px;
 }
 
 .cookies__wrapper {
@@ -239,6 +218,8 @@ a {
 }
 
 .work-image {
+    max-width: 50px;
+    max-height: 42px;
 }
 
 .work-text {
@@ -282,15 +263,28 @@ a {
     font-size: 2rem;
 }
 
-
 .approach__laptop-image {
+    max-width: 861px;
+    position: absolute;
+    right: -120px;
+    top: 35px;
 }
 
 .approach__phone-image {
+    transform: rotate(-57deg);
+    max-width: 1261px;
+    position: absolute;
+    left: -463px;
+    top: -737px;
 }
 
 .approach__cactus-image {
+    max-width: 570px;
+    position: absolute;
+    right: -92px;
+    top: -145px;
 }
+
 
 .experience {
     padding-top: 196px;
@@ -317,6 +311,7 @@ a {
 }
 
 .experience-image {
+    border-radius: 0px 0px 20px 20px;
 }
 
 .testimonials {
@@ -342,6 +337,7 @@ a {
 }
 
 .testimonials__client-image-active {
+    max-width: 49px;
 }
 
 .testimonials-text-active {
@@ -361,6 +357,7 @@ a {
 }
 
 .testimonials__client-image {
+    max-width: 37px;
 }
 
 .testimonials-text {
@@ -370,6 +367,9 @@ a {
 }
 
 .testimonials__button {
+    background-color: transparent;
+    border: none;
+    position: relative;
 }
 
 .form {
@@ -444,4 +444,5 @@ footer .container {
 }
 
 .footer__socialnetworks-image {
+    max-width: 25px;
 }
