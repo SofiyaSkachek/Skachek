@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLOUD FLEX</title>
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="header__logo">
+                <img src="images/header/logo.svg" alt="Logo" class="header__logo-image">
+            </a>
+            <div class="header__navbar">
+                <nav class="header__menu">
+                    <ul class="header__menu-list">
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">about us</a>
+                        </li>
+                        <li class="header__menu-item">
+                            <a href="#!" class="header__menu-link">contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <button class="header__button">
+                    <img src="images/header/burger_menu.svg" alt="burger menu" class="header__button-image">
+                </button>
+            </div>
+            <div class="header__update">
+                <p class="header__update-text">COVID-19 UPDATE</p>
+            </div>
+            <div class="header__lang">
+                <img src="images/header/earth.svg" alt="earth" class="header__lang-image">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="form">
+            <div class="wrapper">
+                <h1>CloudFlex</h1>
+                <p class="form__title">Ready to get started? Drop us a line!</p>
+                <form action="//httpbin.org/post" method="post" class="form__list">
+                    <label class="form__item">Введите ваше имя
+                        <input type="Name" name="Name" placeholder="Name" required class="form-input">
+                    </label>
+                    <label class="form__item">Введите ваш email
+                        <input type="Email" name="Email" placeholder="Email" required class="form-input">
+                    </label>
+                    <label class="form__item">Введите ваш запрос
+                        <input type="What we can do for you?" name="What we can do for you?" placeholder="What we can do for you?" required class="form-input">
+                    </label>
+                    <button type="submit" class="form__button">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__nav">
+                <ul class="footer__nav-list">
+                    <li class="footer__nav-item">
+                        <a href="#!" class="footer__nav-link">Terms of Use</a>
+                    </li>
+                    <li class="footer__nav-item">
+                        <a href="#!" class="footer__nav-link">Privacy Policy</a>
+                    </li>
+                </ul>
+                <p class="footer-copyright">&copy;CloudFlex 2019. All Rights Reserved.</p>
+            </div>
+            <ul class="footer__socialnetworks-list">
+                <li class="footer__socialnetworks-item">
+                    <a href="#" class="footer__socialnetworks-link">
+                        <img src="images/footer/linkedin.svg" alt="LinkedIn" class="footer__socialnetworks-image">
+                    </a>
+                </li>
+                <li class="footer__socialnetworks-item">
+                    <a href="#" class="footer__socialnetworks-link">
+                        <img src="images/footer/facebook.svg" alt="Facebook" class="footer__socialnetworks-image">
+                    </a>
+                </li>
+                <li class="footer__socialnetworks-item">
+                    <a href="#" class="footer__socialnetworks-link">
+                        <img src="images/footer/instagram.svg" alt="Instagram" class="footer__socialnetworks-image">
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+</body>
+</html>
