@@ -31,7 +31,7 @@
 }
 
 body {
-    background-image: url(../images/bg_cloud.jpg);
+    background-image: url(../images/welcome/bg_cloud.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-color: var(--bg-color);
@@ -502,7 +502,7 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../images/cloud_left.png) no-repeat -343px 0px, url(../images/cloud_right.png) no-repeat 1066px bottom;
+    background: url(../images/form/cloud_left.png) no-repeat -343px 0px, url(../images/form/cloud_right.png) no-repeat 1066px bottom;
 }
 
 .form .wrapper {
